@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitereport page</title>
+<style>
+  body{
+    display: grid;
+    grid-template-columns:20% 60% 60%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer"
+    ;
+}
+header{
+    background-color:red;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+nav{
+    background-color: black;
+    grid-area: nav;
+
+
+}
+nav li{
+
+    list-style: none;
+    padding: 0.3em;
+    text-transform: uppercase;
+
+}
+main{
+    background-color: grey;
+    grid-area: main;
+
+}
+aside{
+    background-color: gold;
+    grid-area: aside;
+}
+img{
+    width: 100%;
+}
+iframe{
+
+}
+</style>
+</head>
+<body>
+<header>
+    <h1> sitereport</h1>
+
+</header>
+<nav>
+    <ul>
+        <li> <a href="index.html"> home </a></li>
+        <!-- text transform uppercase -->
+                    <li> <a href="project.html"> project </a></li>
+                    <li> <a href="contact.html"> contact </a> </li>
+                    <li> <a href="videodemo.html"> video demo </a></li>
+                    <li> <a href="sitereport.html"> sitereport</a></li>
+            </ul>
+</nav>
+<main>
+    <h1> validates images </h1>
+    <img src="w3validate2.jpeg" alt="contact">
+    <img src="w3validate3.jpeg" alt="project">
+    <img src="w3validate01.jpeg" alt="index">
+    <img src="w3validater4.jpeg" alt="sitereport">
+
+</main>
+<aside>
+     project experience 
+    <p> There were times when I felt stuck, but I always found a way to work through it, whether
+         it was by asking for help or doing some extra research online. Designing user interfaces
+          was a whole new challenge. Balancing functionality with aesthetics required a lot of trial and error.
+           I experimented with different layouts, colors, and fonts until I found something that felt just right.
+            Of course, there were plenty of ups and downs along the way. 
+            There were moments of triumph when I finally got my code to work the way I wanted it to, and moments of frustration when I couldn't figure out why something wasn't working. But through it all, I learned valuable lessons about perseverance, problem-solving, and creativity.</p>
+            <iframe id="kmsembed-0_vu5r0llk" width=" 400" height="300" src="https://mymedia.northampton.ac.uk/embed/secure/iframe/entryId/0_vu5r0llk/uiConfId/23453349/st/0" class="kmsembed" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-downloads allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Capture recording - May 24th 2024, 9:23:55 pm"></iframe>
+
+</aside>
+</body>
+</html>
